@@ -26,7 +26,8 @@ import com.bumptech.glide.Glide
 import com.google.android.gms.tasks.Task
 import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.common.api.Scope
-import com.google.photos.library.v1.proto.Photo
+//import com.google.photos.proto.Photo
+//import com.google.photos.types.proto.Photo
 import ke.co.calista.googlephotos.R.id.sign_in_button
 import ke.co.calista.googlephotos.ui.main.FragmentMediaItems
 import ke.co.calista.googlephotos.ui.main.MainFragment

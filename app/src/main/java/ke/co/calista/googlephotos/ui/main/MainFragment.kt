@@ -24,6 +24,8 @@ import java.util.*
 import com.afollestad.materialdialogs.list.listItemsMultiChoice
 import com.borax12.materialdaterangepicker.date.DatePickerDialog
 import com.google.photos.library.v1.proto.*
+import com.google.photos.types.proto.Album
+import com.google.photos.types.proto.DateRange
 import com.kogicodes.sokoni.models.custom.MediaType
 import ke.co.calista.googlephotos.MainActivity
 
@@ -224,7 +226,7 @@ class MainFragment : Fragment() , DatePickerDialog.OnDateSetListener{
 
     }
     interface MyInterface {
-        fun onComplete(albumEntry: com.google.photos.library.v1.proto.Album)
+        fun onComplete(albumEntry: Album)
 
 
     }
