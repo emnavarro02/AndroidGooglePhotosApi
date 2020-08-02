@@ -12,7 +12,8 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import com.dev.lishabora.Utils.OnclickRecyclerListener
-import com.google.photos.library.v1.proto.Album
+import com.google.photos.types.proto.Album
+//import com.google.photos.library.v1.proto.Album
 import ke.co.calista.googlephotos.R
 import java.lang.ref.WeakReference
 import java.util.*

@@ -76,7 +76,6 @@ class FragmentMediaItems : Fragment() {
 
         mediaObject= arguments?.getSerializable("mediaType") as MediaItemHolder
 
-
         setUpList()
         viewModel.observeMediaItem().observe(this, Observer {
 

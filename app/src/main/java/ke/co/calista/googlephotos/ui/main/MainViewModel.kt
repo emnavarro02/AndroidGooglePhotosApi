@@ -7,9 +7,11 @@ import android.os.SystemClock
 import android.util.Log
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.photos.library.v1.PhotosLibraryClient
-import com.google.photos.library.v1.proto.Album
+//import com.google.photos.library.v1.proto.Album
 import com.google.photos.library.v1.proto.Filters
-import com.google.photos.library.v1.proto.MediaItem
+//import com.google.photos.library.v1.proto.MediaItem
+import com.google.photos.types.proto.Album
+import com.google.photos.types.proto.MediaItem
 import com.kogicodes.sokoni.models.custom.Resource
 import com.squareup.okhttp.*
 import ke.co.calista.googlephotos.Application.Companion.application
